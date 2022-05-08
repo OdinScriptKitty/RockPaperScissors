@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(31, 195, 245);
+    
+}
+
+
+button {
+    display: block;
+    display: flex;
+    border-color: hotpink;
+    border-width: 3px;
+    background: hotpink;
+    color: black;
+    font-size: large;
+    font-weight: 800;
+    margin-top: 30px;
+    flex-direction: row;
+    
+}
+
+div.buttons{
+    display: flex;
+    text-justify: center;
+    justify-content: center;
+    align-content: center;
+    gap: 40px;
+    
+}
+
+.text {
+    color: black;
+    display: flex;
+    flex-direction: row;
+}
+body {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+   
+
+.text {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-width: 3px;
+    border-color: orange;
+}
+
+.innercolumn {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 1200px;
+    height: 100vh;
+    
+}
